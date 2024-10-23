@@ -10,19 +10,19 @@ This is a sample API to demonstrate an OpenAPI spec with multiple endpoints and 
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "testing/testprojss:3.4.3"
+composer require "testing/testprojss:6.5.6"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "testing/testprojss": "3.4.3"
+    "testing/testprojss": "6.5.6"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/testing/testprojss#3.4.3
+https://packagist.org/packages/testing/testprojss#6.5.6
 
 ## Test the SDK
 
@@ -35,7 +35,7 @@ You can change the PHPUnit test configuration in the `phpunit.xml` file.
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/repo/tree/3.4.3/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/repo/tree/6.5.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -64,11 +64,11 @@ $client = CypressTestAPIClientBuilder::init()
 
 ## List of APIs
 
-* [API](https://www.github.com/ZahraN444/repo/tree/3.4.3/doc/controllers/api.md)
+* [API](https://www.github.com/ZahraN444/repo/tree/6.5.6/doc/controllers/api.md)
 
 ## Classes Documentation
 
-* [ApiException](https://www.github.com/ZahraN444/repo/tree/3.4.3/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/ZahraN444/repo/tree/3.4.3/doc/http-request.md)
-* [HttpResponse](https://www.github.com/ZahraN444/repo/tree/3.4.3/doc/http-response.md)
+* [ApiException](https://www.github.com/ZahraN444/repo/tree/6.5.6/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/ZahraN444/repo/tree/6.5.6/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/repo/tree/6.5.6/doc/http-response.md)
 
